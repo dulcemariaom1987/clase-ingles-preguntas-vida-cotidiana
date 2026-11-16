@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Clase de inglés: Preguntas y respuestas de la vida cotidiana</title>
+<style>
+:root{--bg:#f6f4ff;--card:#fff;--tx:#1f1b3a;--mu:#5b5780;--p:#6c4cf5;--p2:#ff5fa2;--o:#ff9f1c;--g:#12b886;--b:#e3defa;--in:#fbfaff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14112b;--card:#201b45;--tx:#f2efff;--mu:#b9b3e6;--p:#9a85ff;--p2:#ff7fb7;--o:#ffb454;--g:#3ddba7;--b:#37306e;--in:#181437}}
+:root[data-theme="dark"]{--bg:#14112b;--card:#201b45;--tx:#f2efff;--mu:#b9b3e6;--p:#9a85ff;--p2:#ff7fb7;--o:#ffb454;--g:#3ddba7;--b:#37306e;--in:#181437}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;font-size:1.2rem;line-height:1.55}
+.w{max-width:900px;margin:0 auto;padding:0 16px}
+header{background:linear-gradient(135deg,#6c4cf5,#ff5fa2 60%,#ff9f1c);color:#fff;padding:48px 16px 40px;text-align:center}
+header h1{font-size:clamp(2rem,6vw,3.2rem);margin:.2em 0;line-height:1.15}
+header p{font-size:1.3rem;margin:.3em auto;max-width:640px}
+nav{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:2px solid var(--b);padding-top:env(safe-area-inset-top,0px);overflow-x:auto;white-space:nowrap}
+nav a{display:inline-block;padding:12px 14px;color:var(--p);font-weight:700;text-decoration:none;font-size:1rem}
+section{margin:34px 0}
+h2{font-size:clamp(1.6rem,5vw,2.2rem);margin:0 0 12px}
+h2 span{display:inline-block;background:var(--p);color:#fff;border-radius:14px;padding:2px 12px;margin-right:8px}
+h3{font-size:1.4rem;margin:.2em 0 .4em;color:var(--p)}
+.card{background:var(--card);border:2px solid var(--b);border-radius:22px;padding:20px;margin:16px 0;box-shadow:0 6px 18px rgba(108,76,245,.10)}
+.c1{border-top:8px solid var(--p)}.c2{border-top:8px solid var(--p2)}.c3{border-top:8px solid var(--o)}.c4{border-top:8px solid var(--g)}
+.ex{display:flex;gap:10px;align-items:center;background:var(--in);border:2px dashed var(--b);border-radius:14px;padding:10px 14px;margin:8px 0;font-weight:600}
+.ex em{color:var(--mu);font-weight:400;font-style:normal;display:block;font-size:1rem}
+button{font:inherit;cursor:pointer}
+.say{flex:none;background:var(--p);color:#fff;border:0;border-radius:999px;min-width:48px;height:48px;font-size:1.2rem;padding:0 14px}
+.say:hover,.btn:hover{filter:brightness(1.1)}
+.btn{background:var(--p2);color:#fff;border:0;border-radius:14px;padding:12px 20px;font-weight:700;margin:6px 6px 6px 0;min-height:48px}
+.btn.alt{background:var(--g)}
+.tip{background:#fff3d6;color:#3b2e00;border-radius:14px;padding:12px 16px;margin:10px 0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tip{background:#3a3010;color:#ffe9a8}}
+table{width:100%;border-collapse:collapse}td{padding:8px;border-bottom:1px solid var(--b)}
+textarea{width:100%;min-height:76px;font:inherit;padding:12px;border:2px solid var(--b);border-radius:14px;background:var(--in);color:var(--tx);resize:vertical}
+textarea:focus,input:focus{outline:3px solid var(--p);outline-offset:1px}
+label.q{display:block;font-weight:700;margin:14px 0 6px}
+.opt{display:block;background:var(--in);border:2px solid var(--b);border-radius:14px;padding:12px 14px;margin:8px 0;cursor:pointer}
+.opt input{width:22px;height:22px;vertical-align:middle;margin-right:10px;accent-color:var(--p)}
+.chip{display:inline-block;background:var(--o);color:#2a1a00;border:0;border-radius:12px;padding:10px 16px;margin:5px;font-weight:700}
+.line{min-height:64px;border:3px dashed var(--b);border-radius:14px;padding:8px;margin:10px 0;background:var(--in)}
+.big{font-size:1.5rem;font-weight:800;color:var(--p2);min-height:2em}
+details{background:var(--in);border:2px solid var(--b);border-radius:14px;padding:10px 14px;margin:10px 0}
+summary{cursor:pointer;font-weight:700;color:var(--p)}
+.sp{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.saved{color:var(--g);font-weight:700}
+.hw{background:linear-gradient(135deg,#12b886,#6c4cf5);color:#fff;border-radius:22px;padding:20px;text-align:center;margin-top:40px}
+.hw h2{margin:0}
+footer{text-align:center;color:var(--mu);padding:30px 16px;font-size:1rem}
+</style>
+</head>
+<body>
+<header>
+<div style="font-size:3rem">🎓🗣️</div>
+<h1>¡Hablemos en inglés!</h1>
+<p>Preguntas y respuestas de la vida cotidiana: <b>Do you like…?</b> · <b>Have you ever…?</b> · <b>How often…?</b></p>
+<p style="font-size:1.05rem">Nivel: principiante 🌱 · Toca el botón 🔊 para escuchar en inglés americano</p>
+</header>
+<nav><a href="#g">1. Gramática</a><a href="#q">2. Quiz</a><a href="#j">3. Juegos</a><a href="#l">4. Listening</a><a href="#r">5. Reading</a><a href="#wr">6. Writing</a><a href="#t">7. Tarea</a></nav>
+<main class="w">
+<p id="nosp" class="tip" hidden>Tu navegador no tiene voz para el audio. Prueba con Chrome, Safari o Edge.</p>
+
+<section id="g">
+<h2><span>1</span>Gramática fácil</h2>
+<p>¡Hoy aprenderás a hacer y responder 3 tipos de preguntas! Toca 🔊 en cada ejemplo.</p>
+
+<div class="card c1"><h3>① Do you like…? (¿Te gusta…?)</h3>
+<p>Sirve para preguntar gustos. Usa <b>Do you like</b> + algo. Respuestas cortas: <b>Yes, I do</b> (sí) o <b>No, I do not</b> (no).</p>
+<div class="ex"><button class="say" data-t="Do you like pizza?">🔊</button><div>Do you like pizza?<em>¿Te gusta la pizza?</em></div></div>
+<div class="ex"><button class="say" data-t="Yes, I do. I like pizza.">🔊</button><div>Yes, I do. I like pizza.<em>Sí. Me gusta la pizza.</em></div></div>
+<div class="ex"><button class="say" data-t="No, I do not. I like pasta.">🔊</button><div>No, I do not. I like pasta.<em>No. Me gusta la pasta.</em></div></div></div>
+
+<div class="card c2"><h3>② Have you ever…? (¿Alguna vez has…?)</h3>
+<p>Sirve para preguntar por experiencias de tu vida. Usa <b>Have you ever</b> + verbo especial (participio). Respuestas: <b>Yes, I have</b> / <b>No, I have not</b>.</p>
+<div class="ex"><button class="say" data-t="Have you ever eaten sushi?">🔊</button><div>Have you ever eaten sushi?<em>¿Alguna vez has comido sushi?</em></div></div>
+<div class="ex"><button class="say" data-t="Have you ever been to Miami?">🔊</button><div>Have you ever been to Miami?<em>¿Alguna vez has estado en Miami?</em></div></div>
+<div class="ex"><button class="say" data-t="Yes, I have. I have been to Miami.">🔊</button><div>Yes, I have. I have been to Miami.<em>Sí. He estado en Miami.</em></div></div>
+<div class="tip">💡 Verbos útiles: eat → <b>eaten</b> (comer), be → <b>been</b> (estar/ser), see → <b>seen</b> (ver), play → <b>played</b> (jugar).</div></div>
+
+<div class="card c3"><h3>③ How often…? (¿Con qué frecuencia…?)</h3>
+<p>Sirve para preguntar cada cuánto haces algo. Responde con una palabra de frecuencia:</p>
+<table>
+<tr><td>always 🔁</td><td>siempre</td><td><button class="say" data-t="always">🔊</button></td></tr>
+<tr><td>usually</td><td>normalmente</td><td><button class="say" data-t="usually">🔊</button></td></tr>
+<tr><td>sometimes</td><td>a veces</td><td><button class="say" data-t="sometimes">🔊</button></td></tr>
+<tr><td>never ⛔</td><td>nunca</td><td><button class="say" data-t="never">🔊</button></td></tr>
+<tr><td>every day</td><td>todos los días</td><td><button class="say" data-t="every day">🔊</button></td></tr>
+<tr><td>twice a week</td><td>dos veces por semana</td><td><button class="say" data-t="twice a week">🔊</button></td></tr>
+</table>
+<div class="ex"><button class="say" data-t="How often do you exercise?">🔊</button><div>How often do you exercise?<em>¿Con qué frecuencia haces ejercicio?</em></div></div>
+<div class="ex"><button class="say" data-t="I exercise three times a week.">🔊</button><div>I exercise three times a week.<em>Hago ejercicio tres veces por semana.</em></div></div></div>
+</section>
+
+<section id="q">
+<h2><span>2</span>Quiz rápido 🧠</h2>
+<p>Elige una respuesta en cada pregunta. Tus respuestas se guardan, pero aquí no se muestran las soluciones: ¡tú puedes comprobarlas con tu profesor!</p>
+<div class="card c4" id="quiz"></div>
+<button class="btn alt" id="qsave">Guardar mis respuestas</button> <span class="saved" id="qmsg"></span>
+</section>
+
+<section id="j">
+<h2><span>3</span>Juegos 🎮</h2>
+<div class="card c1"><h3>🧩 Juego 1: Ordena la oración</h3>
+<p>Toca las palabras en orden para formar una pregunta. Toca una palabra de la línea para quitarla.</p>
+<div id="puz"></div></div>
+<div class="card c2"><h3>🎡 Juego 2: Ruleta de preguntas</h3>
+<p>Gira la ruleta, escucha la pregunta y respóndela en inglés.</p>
+<button class="btn" id="spin">🎡 ¡Girar!</button>
+<div class="big" id="spq"></div>
+<div class="sp"><button class="say" id="spsay" hidden>🔊</button></div>
+<textarea id="spa" placeholder="Escribe tu respuesta en inglés aquí…"></textarea></div>
+</section>
+
+<section id="l">
+<h2><span>4</span>Listening 🎧</h2>
+<p>Escucha la conversación entre Sam y Mia. Puedes escucharla las veces que quieras, y también más despacio.</p>
+<div class="card c3"><div class="sp"><button class="btn" data-d="d1" data-r="0.9">▶️ Escuchar</button><button class="btn alt" data-d="d1" data-r="0.65">🐢 Más lento</button></div>
+<details><summary>Ver transcripción (texto)</summary><div id="tr1"></div></details>
+<div id="lq"></div></div>
+</section>
+
+<section id="r">
+<h2><span>5</span>Reading 📖</h2>
+<div class="card c4"><h3>Meet Lucy</h3>
+<div class="sp"><button class="say" data-t="Lucy is from Chicago. She likes pizza and music. She plays the guitar every day. She watches movies on Saturdays. She has never eaten sushi, but she has been to New York.">🔊</button><span>Escuchar el texto</span></div>
+<p>Lucy is from Chicago. She likes pizza and music. She plays the guitar every day. She watches movies on Saturdays. She has never eaten sushi, but she has been to New York.</p>
+<div class="tip">📚 Palabras: <b>from</b> = de · <b>movies</b> = películas · <b>never</b> = nunca</div>
+<div id="rq"></div></div>
+</section>
+
+<section id="wr">
+<h2><span>6</span>Writing ✍️</h2>
+<div class="card c2" id="wq"></div>
+</section>
+
+<div class="hw" id="t"><h2>🏠 Tarea</h2><p style="margin:.3em 0">Todo está aquí: no necesitas buscar nada afuera. ¡Tú puedes!</p></div>
+
+<section>
+<h2><span>A</span>Listening 🎧</h2>
+<p>Escucha la conversación entre Ben y Anna.</p>
+<div class="card c3"><div class="sp"><button class="btn" data-d="d2" data-r="0.9">▶️ Escuchar</button><button class="btn alt" data-d="d2" data-r="0.65">🐢 Más lento</button></div>
+<details><summary>Ver transcripción (texto)</summary><div id="tr2"></div></details>
+<div id="hl"></div></div>
+
+<h2><span>B</span>Reading 📖</h2>
+<div class="card c4"><h3>Tom’s week</h3>
+<div class="sp"><button class="say" data-t="Tom lives in Miami. He likes dogs, and he has two dogs. He walks them twice a day. He never eats fish. He has been to Canada one time.">🔊</button><span>Escuchar el texto</span></div>
+<p>Tom lives in Miami. He likes dogs, and he has two dogs. He walks them twice a day. He never eats fish. He has been to Canada one time.</p>
+<div class="tip">📚 Palabras: <b>lives</b> = vive · <b>dogs</b> = perros · <b>fish</b> = pescado</div>
+<div id="hr"></div></div>
+
+<h2><span>C</span>Writing ✍️</h2>
+<div class="card c2" id="hw"></div>
+</section>
+</main>
+<footer>🌟 ¡Buen trabajo! La práctica diaria hace al maestro. See you next class!</footer>
+
+<script>
+(function(){
+var A='’';
+var ok='speechSynthesis' in window,tok=0;
+if(!ok)document.getElementById('nosp').hidden=false;
+function voice(){try{var v=speechSynthesis.getVoices();return v.filter(function(x){return x.lang==='en-US'||x.lang==='en_US'})[0]||v.filter(function(x){return x.lang.indexOf('en')===0})[0]||null}catch(e){return null}}
+function speak(t,r,p,cb){if(!ok)return;var u=new SpeechSynthesisUtterance(t);u.lang='en-US';u.rate=r||0.9;u.pitch=p||1;var v=voice();if(v)u.voice=v;if(cb){u.onend=cb;u.onerror=cb}speechSynthesis.speak(u)}
+function stop(){tok++;if(ok)speechSynthesis.cancel()}
+if(ok){try{speechSynthesis.getVoices();speechSynthesis.onvoiceschanged=function(){}}catch(e){}}
+var D={
+d1:[['Sam','Hi Mia! Do you like coffee?'],['Mia','Yes, I do. I drink coffee every morning.'],['Sam','How often do you go to the gym?'],['Mia','I go to the gym three times a week.'],['Sam','Have you ever been to Mexico?'],['Mia','No, I have not. But I want to go!']],
+d2:[['Ben','Hello Anna! Do you like tea?'],['Anna','No, I do not. I like juice.'],['Ben','How often do you watch TV?'],['Anna','I watch TV every night.'],['Ben','Have you ever played soccer?'],['Anna','Yes, I have. I play soccer on Sundays.']]};
+function play(id,r){stop();var m=++tok,i=0,l=D[id];(function next(){if(m!==tok||i>=l.length)return;var x=l[i++];speak(x[1],r,i%2?1.15:0.8,function(){setTimeout(next,350)})})()}
+function tr(el,id){document.getElementById(el).innerHTML=D[id].map(function(x){return '<p><b>'+x[0]+':</b> '+x[1]+'</p>'}).join('')}
+tr('tr1','d1');tr('tr2','d2');
+document.addEventListener('click',function(e){
+var b=e.target.closest('button');if(!b)return;
+if(b.classList.contains('say')&&b.dataset.t){stop();speak(b.dataset.t,0.9)}
+else if(b.dataset.d){play(b.dataset.d,parseFloat(b.dataset.r))}
+});
+function area(box,list,pre){var h='';list.forEach(function(q,i){var id=pre+i;h+='<label class="q" for="'+id+'">'+(i+1)+'. '+q+'</label><textarea id="'+id+'" placeholder="Escribe tu respuesta aquí…"></textarea>'});document.getElementById(box).innerHTML=h}
+area('lq',['¿A Sam le gusta el café? (Responde en inglés: Yes, … / No, …)','¿Cuántas veces por semana va Mia al gimnasio? (en español o inglés)','¿Mia ha estado en México? (Responde en inglés)'],'l');
+area('rq',['¿De dónde es Lucy? (en español)','¿Con qué frecuencia toca Lucy la guitarra? (en español)','¿Lucy ha comido sushi? (Responde en inglés: Yes, she has / No, she has not)'],'r');
+area('wq',['Escribe en inglés: “¿Te gusta el chocolate?”','Escribe en inglés: “¿Alguna vez has estado en Chile?”','Escribe en inglés: “¿Con qué frecuencia lees?”','Responde en inglés sobre ti: Do you like music?','Responde en inglés sobre ti: How often do you drink water?'],'w');
+area('hl',['¿Qué le gusta beber a Anna? (en español o inglés)','¿Con qué frecuencia ve TV Anna? (en español)','¿Anna ha jugado fútbol? (Responde en inglés)'],'hl');
+area('hr',['¿Dónde vive Tom? (en español)','¿Cuántos perros tiene Tom? (en español)','¿Tom ha estado en Canadá? (Responde en inglés)'],'hr');
+area('hw',['Escribe en inglés: “¿Te gusta el helado?”','Escribe en inglés: “¿Alguna vez has visto una película en inglés?”','Escribe en inglés: “¿Con qué frecuencia caminas?”','Responde en inglés sobre ti: Do you like animals?','Responde en inglés sobre ti: Have you ever been to the beach?'],'hw');
+var Q=[['Completa: “___ you like pizza?”',['Do','Does','Have']],['Completa: “How often ___ you study?”',['do','have','are']],['Completa: “Have you ever ___ sushi?”',['eat','ate','eaten']],['¿Qué significa “never”?',['nunca','siempre','a veces']],['¿Cuál oración es correcta?',['I like music.','I likes music.','I am like music.']]];
+var qh='';Q.forEach(function(q,i){qh+='<p><b>'+(i+1)+'. '+q[0]+'</b></p>';q[1].forEach(function(o,j){qh+='<label class="opt"><input type="radio" name="q'+i+'" value="'+j+'">'+o+'</label>'});});
+document.getElementById('quiz').innerHTML=qh;
+document.getElementById('qsave').onclick=function(){var n=0;Q.forEach(function(q,i){if(document.querySelector('input[name="q'+i+'"]:checked'))n++});document.getElementById('qmsg').textContent=n<Q.length?'Faltan '+(Q.length-n)+' preguntas por responder.':'✅ ¡Respuestas guardadas! Muéstraselas a tu profesor.'};
+var P=[['Do','you','like','music','?'],['How','often','do','you','swim','?'],['Have','you','ever','been','to','Peru','?']];
+var ph='';P.forEach(function(w,i){ph+='<div id="p'+i+'"><p><b>Oración '+(i+1)+'</b></p><div class="line" id="pl'+i+'"></div><div id="pc'+i+'"></div><button class="btn alt" data-pr="'+i+'">🔄 Reiniciar</button><button class="say" data-ps="'+i+'" aria-label="Escuchar tu oración">🔊</button></div>'});
+document.getElementById('puz').innerHTML=ph;
+var st=[];
+function shuf(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+function draw(i){var s=st[i];var l=document.getElementById('pl'+i),c=document.getElementById('pc'+i);l.innerHTML='';c.innerHTML='';
+s.line.forEach(function(k,n){var b=document.createElement('button');b.className='chip';b.style.background='var(--p2)';b.style.color='#fff';b.textContent=s.w[k];b.onclick=function(){s.line.splice(n,1);draw(i)};l.appendChild(b)});
+s.order.forEach(function(k){if(s.line.indexOf(k)>-1)return;var b=document.createElement('button');b.className='chip';b.textContent=s.w[k];b.onclick=function(){s.line.push(k);draw(i)};c.appendChild(b)})}
+function init(i){st[i]={w:P[i],order:shuf(P[i].map(function(_,k){return k})),line:[]};draw(i)}
+P.forEach(function(_,i){init(i)});
+document.getElementById('puz').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;
+if(b.dataset.pr!==undefined)init(+b.dataset.pr);
+if(b.dataset.ps!==undefined){var s=st[+b.dataset.ps];var t=s.line.map(function(k){return s.w[k]}).join(' ');if(t)speak(t,0.9)}},true);
+var R=['Do you like pizza?','Do you like to cook?','Have you ever eaten sushi?','Have you ever been to the beach?','How often do you drink coffee?','How often do you watch movies?','Do you like animals?','How often do you call your family?'];
+var cur='';
+document.getElementById('spin').onclick=function(){var n;do{n=R[Math.floor(Math.random()*R.length)]}while(n===cur);cur=n;document.getElementById('spq').textContent=n;document.getElementById('spsay').hidden=false;document.getElementById('spsay').dataset.t=n;document.getElementById('spa').value='';speak(n,0.9)};
+})();
+</script>
+</body>
+</html>
